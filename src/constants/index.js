@@ -134,8 +134,8 @@ const projects = [
       }
     ],
     image: "/projects/Shopping-List.png",
-    repo: 'https://github.com/jurgenstevens/garage-builders-plus',
-    demo: 'https://garagebuilderspluschi.netlify.app/',
+    repo: 'https://github.com/Taeyong-Sung/shopping-list',
+    demo: 'https://syopinglist-56262e06c255.herokuapp.com/',
   },
   {
     id: 'project-3',

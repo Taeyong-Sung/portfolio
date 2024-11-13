@@ -40,12 +40,12 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Jurgen Stevens
+                Taeyong Sung
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Full Stack Software Engineer<br className="sm:block hidden" />
-              Project focused developer utilizing JavaScript, C#, Python, React.js, .NET and Django.
+              Project focused developer utilizing JavaScript, Python, React.js, and Django.
             </p>
           </div>
           <div
@@ -76,13 +76,13 @@ const Hero = () => {
           </a>
         </div>
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-          <img
+          {/* <img
               className="absolute bottom-0 ml-[0vw] 
               lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[73vw]
               sm:h-[0vh] md:h-[0vh] xl:h-[45vh]"
               src="/personal/jurgen.png"
               alt="jurgen"
-            />
+            /> */}
         <div>
         </div>
       </section>

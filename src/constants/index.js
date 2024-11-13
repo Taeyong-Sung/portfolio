@@ -46,24 +46,12 @@ const technologies = [
     icon: "./tech/javascript.png",
   },
   {
-    name: 'TypeScript',
-    icon: "./tech/typescript.png",
-  },
-  {
     name: "Python",
     icon: "./tech/python.png"
   },
   {
-    name: "C#",
-    icon: "./tech/csharp.png"
-  },
-  {
     name: 'React JS',
     icon: "./tech/reactjs.png",
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: "./tech/tailwind.png",
   },
   {
     name: 'Node JS',
@@ -72,14 +60,6 @@ const technologies = [
   {
     name: 'Django',
     icon: "./tech/django.png"
-  },
-  {
-    name: ".NET",
-    icon: "./tech/dotnet.png"
-  },
-  {
-    name: 'Rails',
-    icon: "./tech/rubyrails.png",
   },
   {
     name: 'postgresql',
@@ -93,40 +73,33 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Doorman',
-    company_name: 'Palmolive Condominiums',
+    title: 'Schedule/Part Manager',
+    company_name: 'HOME SERVICE NETWORK',
     icon: "/company/coverhunt.png",
     iconBg: '#333333',
-    date: 'Oct 2020 - Jun 2021',
+    date: 'May 2013 - July 2015',
   },
   {
-    title: 'Full Stack Software Engineer Instructor Assistant',
-    company_name: 'General Assembly',
+    title: '3D Digital Dental Design',
+    company_name: 'PRIME DENTAL STUDIO',
     icon: "/company/microverse.png",
     iconBg: '#333333',
-    date: 'Mar 2021 - Present',
+    date: 'July 2015 - June 2017',
   },
   {
-    title: 'Software Documentation Engineer',
-    company_name: 'General Assembly',
+    title: 'Samsung Appliance & Television Technician/STG (Samsung Tech Guide)/SBB (Samsung Beyond Boundaries) Program',
+    company_name: 'HOME SERVICE NETWORK ',
     icon: "/company/kelhel.png",
     iconBg: '#333333',
-    date: 'Jun 2023 - Aug 2023',
-  },
-  {
-    title: 'Freelance React Software Engineer',
-    company_name: 'Garage Builders Plus',
-    icon: "/company/dcc.png",
-    iconBg: '#333333',
-    date: 'Mar 2023 - Present',
+    date: 'July 2017 - July 2024',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'uCommute',
-    description: 'A mobile application for Chicago transit that shows real-time arrival schedules of trains at stations for users.',
+    name: 'Quiz Game',
+    description: 'An interactive and engaging application designed to challenge and test knowledge through a fun quiz game experience!.',
     tags: [
       {
         name: 'react',
@@ -141,15 +114,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/komikult.png",
-    repo: 'https://github.com/jurgenstevens/ucommute-front',
-    demo: 'https://ucommute.netlify.app/',
+    image: "/projects/Quiz-Game.png",
+    repo: 'https://github.com/Taeyong-Sung/quiz-game',
+    demo: 'https://taeyong-sung.github.io/quiz-game/',
   },
   {
     id: 'project-2',
-    name: 'Garage Builders Plus',
+    name: 'Shopping List',
     description:
-      'An informative platform for a garage building company based in Chicago, Illinois. It provides visitors with company information, an about page, and showcases a gallery of the company\'s previous projects..',
+      'An innovative and user-friendly application designed to conveniently list and efficiently monitor all your diverse purchasing requirements.',
     tags: [
       {
         name: 'react',
@@ -160,7 +133,7 @@ const projects = [
         color: 'pink-text-gradient',
       }
     ],
-    image: "/projects/leaderboard.png",
+    image: "/projects/Shopping-List.png",
     repo: 'https://github.com/jurgenstevens/garage-builders-plus',
     demo: 'https://garagebuilderspluschi.netlify.app/',
   },
@@ -182,14 +155,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: "/projects/math-magicians.png",
-    repo: 'https://github.com/jurgenstevens/hillbomber',
-    demo: 'https://jurgenstevens.github.io/hillbomber/',
+    image: "/projects/Care-Connect.png",
+    repo: 'https://github.com/Taeyong-Sung/careconnect-front-end',
+    demo: 'https://care-connect-health.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Archer Skateshop',
-    description: `Crafted as an e-commerce platform specializing in skateboarding, this project was meticulously constructed using the robust trio of Bootstrap, Javascript, and React.js.`,
+    name: 'Todo-List',
+    description: `An efficient and user-friendly application that enables you to effortlessly organize and manage all your daily tasks with convenience.`,
     tags: [
       {
         name: 'react',
@@ -204,33 +177,10 @@ const projects = [
         color: 'purple-text-gradient',
       },
     ],
-    image: "/projects/movie-metro.png",
-    repo: 'https://github.com/jurgenstevens/archer-skateshop',
-    demo: 'https://archerskateshop.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Deciphr',
-    description:
-      'A user-friendly application that allows you to decipher and compare lyrical insights with others. Users can immerse themselves in the world of music input and save lyrical guesses, fostering a sense of community and camaraderie in unraveling the mysteries of lyrics.',
-    tags: [
-      {
-        name: 'python',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'django',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: "/projects/nyeusi.png",
-    repo: 'https://github.com/jurgenstevens/deciphr',
-    demo: 'https://deciphr.onrender.com/',
-  },
+    image: "/projects/Todo-List.png",
+    repo: 'https://github.com/Taeyong-Sung/tododo-list',
+    demo: 'https://tododolist-6b5d47d6ac82.herokuapp.com/',
+  }
 ];
 
 export { services, technologies, experiences, projects };

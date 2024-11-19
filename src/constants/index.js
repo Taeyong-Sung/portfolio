@@ -139,8 +139,8 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Hillbomber',
-    description: 'An interactive experience created using HTML Canvas, JavaScript, jQuery, and a combination of functional and object-oriented programming paradigms. In this game, you navigate the streets of San Francisco on a skateboard, skillfully avoiding obstacles like potholes, dogs, and cars.',
+    name: 'Care Connect',
+    description: 'An app that allows you to easily find a doctor in your neighborhood and schedule an appointment based on your symptoms',
     tags: [
       {
         name: 'javascript',
